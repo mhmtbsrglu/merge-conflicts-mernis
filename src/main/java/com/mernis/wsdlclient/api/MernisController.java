@@ -22,6 +22,7 @@ public class MernisController {
 		System.out.println("Gerçek kişi mi ? : "+tc);
 		//yorum satırı
 		//yorum satırı 2
+		//yorum satırı 3
 		return tc;
 	}
 
