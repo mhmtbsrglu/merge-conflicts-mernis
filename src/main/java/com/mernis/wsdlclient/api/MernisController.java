@@ -20,11 +20,6 @@ public class MernisController {
 		KPSPublicSoap soap = kpsPublic.getKPSPublicSoap();
 		 boolean tc = soap.tcKimlikNoDogrula(11111111111L, "Mehmet", "Basrioğlu", 1111);
 		System.out.println("Gerçek kişi mi ? : "+tc);
-		//yorum satırı
-		//yorum satırı 2
-		//yorum satırı 3
-		//yorum satırı 4
-		//yorum satırı 5
 		return tc;
 	}
 
