@@ -21,6 +21,7 @@ public class MernisController {
 		 boolean tc = soap.tcKimlikNoDogrula(11111111111L, "Mehmet", "Basrioğlu", 1111);
 		System.out.println("Gerçek kişi mi ? : "+tc);
 		//yorum satırı
+		//yorum satırı 2
 		return tc;
 	}
 
