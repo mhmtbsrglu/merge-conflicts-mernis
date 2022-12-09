@@ -23,7 +23,7 @@ public class MernisImpl implements BaseMernis{
             url = new URL(endpoint);
             KPSPublic kpsPublic = new KPSPublic(url);
             KPSPublicSoap soap = kpsPublic.getKPSPublicSoap();
-            boolean result = soap.tcKimlikNoDogrula(11111111111L, "Mehmet", "Basrioğlu", 1111);
+            boolean result = soap.tcKimlikNoDogrula(Long.parseLong(tc), ad, soyAd, Integer.parseInt(dogumYili));
             response.put("endpoint",endpoint);
             response.put("isRealPersonInTurkey",result);
             response.put("status", HttpStatus.OK);

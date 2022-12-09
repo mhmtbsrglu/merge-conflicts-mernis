@@ -1,5 +1,6 @@
 package com.mernis.wsdlclient.api;
 
+import com.mernis.wsdlclient.annotation.ApiV1;
 import com.mernis.wsdlclient.services.base.BaseMernis;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -14,12 +15,13 @@ import java.util.Map;
 
 
 @RestController
+@ApiV1
 public class MernisController {
 
 	@Autowired
 	BaseMernis baseMernis;
 	
-	@GetMapping
+	@GetMapping("/validate")
 	public Map<String,Object> mernisDogrula(@RequestParam("tc") String tc,
 											@RequestParam("ad") String ad,
 											@RequestParam("soyAd") String soyAd,
