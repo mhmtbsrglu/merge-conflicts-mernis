@@ -49,6 +49,13 @@
 			<type>pom</type>
 		</dependency>
 
+		<!-- xml dependency -->
+		<dependency>
+			<groupId>com.fasterxml.jackson.dataformat</groupId>
+			<artifactId>jackson-dataformat-xml</artifactId>
+		</dependency>
+		<!-- xml dependency end -->
+
 	</dependencies>
 
 	<build>
