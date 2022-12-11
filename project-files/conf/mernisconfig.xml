@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<mernisConfigs>
+    <endpointURL>https://tckimlik.nvi.gov.tr/Service/KPSPublic.asmx?WSDL</endpointURL>
+    <test>deneme</test>
+</mernisConfigs>
